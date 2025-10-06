@@ -1,0 +1,71 @@
+{
+  "segments": [
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "revenue": {
+        "current": 3200000,
+        "previous": 2720000,
+        "growth": 0.176
+      },
+      "customers": 245,
+      "avgRevenuePerCustomer": 13061,
+      "churnRate": 0.05,
+      "growthRate": 0.18,
+      "marketShare": 0.12,
+      "quarterlyTrend": [
+        { "quarter": "Q1 2024", "revenue": 2900000, "customers": 220 },
+        { "quarter": "Q2 2024", "revenue": 3050000, "customers": 232 },
+        { "quarter": "Q3 2024", "revenue": 3120000, "customers": 238 },
+        { "quarter": "Q4 2024", "revenue": 3200000, "customers": 245 }
+      ]
+    },
+    {
+      "id": "smb",
+      "name": "SMB",
+      "revenue": {
+        "current": 1500000,
+        "previous": 1340000,
+        "growth": 0.119
+      },
+      "customers": 1850,
+      "avgRevenuePerCustomer": 811,
+      "churnRate": 0.12,
+      "growthRate": 0.12,
+      "marketShare": 0.08,
+      "quarterlyTrend": [
+        { "quarter": "Q1 2024", "revenue": 1350000, "customers": 1720 },
+        { "quarter": "Q2 2024", "revenue": 1420000, "customers": 1780 },
+        { "quarter": "Q3 2024", "revenue": 1460000, "customers": 1810 },
+        { "quarter": "Q4 2024", "revenue": 1500000, "customers": 1850 }
+      ]
+    },
+    {
+      "id": "consumer",
+      "name": "Consumer",
+      "revenue": {
+        "current": 500000,
+        "previous": 463000,
+        "growth": 0.080
+      },
+      "customers": 45000,
+      "avgRevenuePerCustomer": 11,
+      "churnRate": 0.18,
+      "growthRate": 0.08,
+      "marketShare": 0.03,
+      "quarterlyTrend": [
+        { "quarter": "Q1 2024", "revenue": 470000, "customers": 42000 },
+        { "quarter": "Q2 2024", "revenue": 480000, "customers": 43200 },
+        { "quarter": "Q3 2024", "revenue": 490000, "customers": 44100 },
+        { "quarter": "Q4 2024", "revenue": 500000, "customers": 45000 }
+      ]
+    }
+  ],
+  "segmentMetrics": {
+    "totalRevenue": 5200000,
+    "totalCustomers": 47095,
+    "avgBlendedGrowth": 0.145,
+    "topPerformer": "enterprise",
+    "focusArea": "smb"
+  }
+}
