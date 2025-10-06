@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback } from 'react';
 import ReactFlow, {
   Background,
   Controls,
@@ -21,7 +21,7 @@ const nodeTypes = {
 };
 
 export default function NodeCanvas({ onNodeSelect }) {
-  const [nodes, setNodes, onNodesChange] = useNodesState(mockNodes.nodes);
+  const [nodes, , onNodesChange] = useNodesState(mockNodes.nodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(mockNodes.edges);
   
   const onConnect = useCallback(

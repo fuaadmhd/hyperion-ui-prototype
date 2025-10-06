@@ -38,7 +38,7 @@ export default function VersionHistory() {
       </div>
       
       <div className="space-y-3">
-        {commits.map((commit, index) => (
+        {commits.map((commit) => (
           <div
             key={commit.id}
             className="p-3 bg-gray-800 hover:bg-gray-750 rounded-lg transition-colors cursor-pointer"
