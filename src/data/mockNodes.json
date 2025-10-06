@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "node-1",
+      "type": "dataInput",
+      "position": { "x": 100, "y": 100 },
+      "data": {
+        "label": "Market Data API",
+        "subtitle": "TechCorp Revenue",
+        "value": "$5.2M",
+        "color": "blue"
+      }
+    },
+    {
+      "id": "node-2",
+      "type": "assumption",
+      "position": { "x": 100, "y": 250 },
+      "data": {
+        "label": "Growth Rate",
+        "value": "8%",
+        "editable": true,
+        "color": "green"
+      }
+    },
+    {
+      "id": "node-3",
+      "type": "assumption",
+      "position": { "x": 100, "y": 400 },
+      "data": {
+        "label": "WACC",
+        "value": "9.2%",
+        "editable": true,
+        "color": "green"
+      }
+    },
+    {
+      "id": "node-4",
+      "type": "calculation",
+      "position": { "x": 400, "y": 150 },
+      "data": {
+        "label": "EBITDA Calculator",
+        "formula": "Revenue × Margin",
+        "value": "$1.66M",
+        "color": "purple"
+      }
+    },
+    {
+      "id": "node-5",
+      "type": "pythonScript",
+      "position": { "x": 400, "y": 300 },
+      "data": {
+        "label": "Moving Average Smoother",
+        "language": "Python",
+        "color": "orange"
+      }
+    },
+    {
+      "id": "node-6",
+      "type": "calculation",
+      "position": { "x": 700, "y": 150 },
+      "data": {
+        "label": "Free Cash Flow",
+        "formula": "EBITDA - CapEx - Tax",
+        "value": "$1.04M",
+        "color": "purple"
+      }
+    },
+    {
+      "id": "node-7",
+      "type": "forecast",
+      "position": { "x": 700, "y": 300 },
+      "data": {
+        "label": "Revenue Forecast",
+        "periods": "5 years",
+        "method": "Linear Growth",
+        "color": "teal"
+      }
+    },
+    {
+      "id": "node-8",
+      "type": "visualization",
+      "position": { "x": 1000, "y": 200 },
+      "data": {
+        "label": "Revenue Trend Chart",
+        "chartType": "Line",
+        "color": "pink"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "source": "node-1",
+      "target": "node-4",
+      "animated": true
+    },
+    {
+      "id": "edge-2",
+      "source": "node-2",
+      "target": "node-7",
+      "animated": true
+    },
+    {
+      "id": "edge-3",
+      "source": "node-4",
+      "target": "node-6",
+      "animated": true
+    },
+    {
+      "id": "edge-4",
+      "source": "node-5",
+      "target": "node-7",
+      "animated": true
+    },
+    {
+      "id": "edge-5",
+      "source": "node-6",
+      "target": "node-8",
+      "animated": true
+    },
+    {
+      "id": "edge-6",
+      "source": "node-7",
+      "target": "node-8",
+      "animated": true
+    }
+  ]
+}

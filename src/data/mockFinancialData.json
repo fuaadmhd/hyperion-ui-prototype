@@ -1,0 +1,80 @@
+{
+  "revenue": {
+    "historical": [
+      { "quarter": "Q1 2023", "value": 3200000, "date": "2023-03-31" },
+      { "quarter": "Q2 2023", "value": 3450000, "date": "2023-06-30" },
+      { "quarter": "Q3 2023", "value": 3680000, "date": "2023-09-30" },
+      { "quarter": "Q4 2023", "value": 4100000, "date": "2023-12-31" },
+      { "quarter": "Q1 2024", "value": 4300000, "date": "2024-03-31" },
+      { "quarter": "Q2 2024", "value": 4650000, "date": "2024-06-30" },
+      { "quarter": "Q3 2024", "value": 4950000, "date": "2024-09-30" },
+      { "quarter": "Q4 2024", "value": 5200000, "date": "2024-12-31" }
+    ],
+    "forecast": [
+      { "quarter": "Q1 2025", "value": 5500000, "date": "2025-03-31" },
+      { "quarter": "Q2 2025", "value": 5850000, "date": "2025-06-30" },
+      { "quarter": "Q3 2025", "value": 6200000, "date": "2025-09-30" },
+      { "quarter": "Q4 2025", "value": 6600000, "date": "2025-12-31" },
+      { "quarter": "Q1 2026", "value": 7000000, "date": "2026-03-31" },
+      { "quarter": "Q2 2026", "value": 7450000, "date": "2026-06-30" },
+      { "quarter": "Q3 2026", "value": 7900000, "date": "2026-09-30" },
+      { "quarter": "Q4 2026", "value": 8400000, "date": "2026-12-31" }
+    ]
+  },
+  "ebitda": {
+    "historical": [
+      { "quarter": "Q1 2023", "value": 960000, "margin": 0.30 },
+      { "quarter": "Q2 2023", "value": 1035000, "margin": 0.30 },
+      { "quarter": "Q3 2023", "value": 1104000, "margin": 0.30 },
+      { "quarter": "Q4 2023", "value": 1312000, "margin": 0.32 },
+      { "quarter": "Q1 2024", "value": 1376000, "margin": 0.32 },
+      { "quarter": "Q2 2024", "value": 1488000, "margin": 0.32 },
+      { "quarter": "Q3 2024", "value": 1584000, "margin": 0.32 },
+      { "quarter": "Q4 2024", "value": 1664000, "margin": 0.32 }
+    ],
+    "forecast": [
+      { "quarter": "Q1 2025", "value": 1760000, "margin": 0.32 },
+      { "quarter": "Q2 2025", "value": 1872000, "margin": 0.32 },
+      { "quarter": "Q3 2025", "value": 1984000, "margin": 0.32 },
+      { "quarter": "Q4 2025", "value": 2112000, "margin": 0.32 },
+      { "quarter": "Q1 2026", "value": 2240000, "margin": 0.32 },
+      { "quarter": "Q2 2026", "value": 2384000, "margin": 0.32 },
+      { "quarter": "Q3 2026", "value": 2528000, "margin": 0.32 },
+      { "quarter": "Q4 2026", "value": 2688000, "margin": 0.32 }
+    ]
+  },
+  "freeCashFlow": {
+    "historical": [
+      { "quarter": "Q1 2023", "value": 640000 },
+      { "quarter": "Q2 2023", "value": 690000 },
+      { "quarter": "Q3 2023", "value": 736000 },
+      { "quarter": "Q4 2023", "value": 820000 },
+      { "quarter": "Q1 2024", "value": 860000 },
+      { "quarter": "Q2 2024", "value": 930000 },
+      { "quarter": "Q3 2024", "value": 990000 },
+      { "quarter": "Q4 2024", "value": 1040000 }
+    ],
+    "forecast": [
+      { "quarter": "Q1 2025", "value": 1100000 },
+      { "quarter": "Q2 2025", "value": 1170000 },
+      { "quarter": "Q3 2025", "value": 1240000 },
+      { "quarter": "Q4 2025", "value": 1320000 },
+      { "quarter": "Q1 2026", "value": 1400000 },
+      { "quarter": "Q2 2026", "value": 1490000 },
+      { "quarter": "Q3 2026", "value": 1580000 },
+      { "quarter": "Q4 2026", "value": 1680000 }
+    ]
+  },
+  "keyMetrics": {
+    "revenueGrowth": 0.15,
+    "ebitdaMargin": 0.32,
+    "wacc": 0.092,
+    "terminalGrowthRate": 0.03,
+    "taxRate": 0.25
+  },
+  "valuation": {
+    "baseCase": 125000000,
+    "aggressiveGrowth": 185000000,
+    "recession": 92000000
+  }
+}
