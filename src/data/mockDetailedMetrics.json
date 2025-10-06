@@ -1,0 +1,107 @@
+{
+  "kpis": {
+    "revenue": {
+      "current": 5200000,
+      "previous": 4950000,
+      "change": 0.0505,
+      "trend": "up",
+      "target": 5500000,
+      "targetProgress": 0.945
+    },
+    "ebitda": {
+      "current": 1664000,
+      "previous": 1584000,
+      "change": 0.0505,
+      "trend": "up",
+      "margin": 0.32,
+      "targetMargin": 0.35
+    },
+    "ebitdaMargin": {
+      "current": 0.32,
+      "previous": 0.32,
+      "change": 0,
+      "trend": "stable",
+      "industryAvg": 0.28,
+      "topQuartile": 0.38
+    },
+    "freeCashFlow": {
+      "current": 1040000,
+      "previous": 990000,
+      "change": 0.0505,
+      "trend": "up",
+      "conversionRate": 0.625,
+      "target": 1100000
+    },
+    "revenueGrowth": {
+      "current": 0.15,
+      "previous": 0.14,
+      "change": 0.0714,
+      "trend": "up",
+      "industryAvg": 0.12,
+      "target": 0.18
+    },
+    "customerCount": {
+      "current": 47095,
+      "previous": 44920,
+      "change": 0.0484,
+      "trend": "up",
+      "target": 50000,
+      "netNewCustomers": 2175
+    },
+    "arpu": {
+      "current": 110.45,
+      "previous": 110.20,
+      "change": 0.0023,
+      "trend": "up",
+      "target": 115.00
+    },
+    "churnRate": {
+      "current": 0.11,
+      "previous": 0.12,
+      "change": -0.0833,
+      "trend": "down",
+      "target": 0.08,
+      "industryAvg": 0.15
+    },
+    "cashBalance": {
+      "current": 8500000,
+      "previous": 7950000,
+      "change": 0.0692,
+      "trend": "up",
+      "runwayMonths": 18,
+      "minimumCash": 5000000
+    },
+    "burnRate": {
+      "current": 480000,
+      "previous": 520000,
+      "change": -0.0769,
+      "trend": "down",
+      "target": 400000
+    }
+  },
+  "operationalMetrics": {
+    "salesEfficiency": {
+      "cac": 2500,
+      "ltv": 18500,
+      "ltvCacRatio": 7.4,
+      "target": 8.0
+    },
+    "productivity": {
+      "revenuePerEmployee": 185000,
+      "employeeCount": 28,
+      "headcountGrowth": 0.12
+    },
+    "marketMetrics": {
+      "marketSize": 500000000,
+      "marketShare": 0.0104,
+      "totalAddressableMarket": 1200000000
+    }
+  },
+  "financialHealth": {
+    "liquidityRatio": 2.8,
+    "debtToEquity": 0.15,
+    "interestCoverage": 12.5,
+    "workingCapital": 4200000,
+    "quickRatio": 2.3
+  }
+}

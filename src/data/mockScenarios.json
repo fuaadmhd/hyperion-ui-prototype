@@ -1,0 +1,103 @@
+{
+  "scenarios": [
+    {
+      "id": "base-case",
+      "name": "Base Case",
+      "description": "Conservative growth with stable market conditions",
+      "assumptions": {
+        "revenueGrowth": 0.15,
+        "ebitdaMargin": 0.32,
+        "wacc": 0.092,
+        "terminalGrowthRate": 0.03,
+        "taxRate": 0.25
+      },
+      "valuation": {
+        "enterpriseValue": 125000000,
+        "equityValue": 118000000,
+        "pricePerShare": 23.60
+      },
+      "projections": {
+        "year1Revenue": 22000000,
+        "year1EBITDA": 7040000,
+        "year5Revenue": 38500000,
+        "year5EBITDA": 12320000
+      }
+    },
+    {
+      "id": "aggressive-growth",
+      "name": "Aggressive Growth",
+      "description": "High growth scenario with market expansion",
+      "assumptions": {
+        "revenueGrowth": 0.25,
+        "ebitdaMargin": 0.35,
+        "wacc": 0.085,
+        "terminalGrowthRate": 0.045,
+        "taxRate": 0.25
+      },
+      "valuation": {
+        "enterpriseValue": 185000000,
+        "equityValue": 175500000,
+        "pricePerShare": 35.10
+      },
+      "projections": {
+        "year1Revenue": 25000000,
+        "year1EBITDA": 8750000,
+        "year5Revenue": 55000000,
+        "year5EBITDA": 19250000
+      }
+    },
+    {
+      "id": "recession",
+      "name": "Recession Scenario",
+      "description": "Economic downturn with reduced growth",
+      "assumptions": {
+        "revenueGrowth": 0.05,
+        "ebitdaMargin": 0.28,
+        "wacc": 0.105,
+        "terminalGrowthRate": 0.02,
+        "taxRate": 0.25
+      },
+      "valuation": {
+        "enterpriseValue": 92000000,
+        "equityValue": 87400000,
+        "pricePerShare": 17.48
+      },
+      "projections": {
+        "year1Revenue": 20500000,
+        "year1EBITDA": 5740000,
+        "year5Revenue": 24000000,
+        "year5EBITDA": 6720000
+      }
+    },
+    {
+      "id": "expansion",
+      "name": "Market Expansion",
+      "description": "New market entry with increased investment",
+      "assumptions": {
+        "revenueGrowth": 0.20,
+        "ebitdaMargin": 0.30,
+        "wacc": 0.095,
+        "terminalGrowthRate": 0.035,
+        "taxRate": 0.25
+      },
+      "valuation": {
+        "enterpriseValue": 155000000,
+        "equityValue": 147250000,
+        "pricePerShare": 29.45
+      },
+      "projections": {
+        "year1Revenue": 23500000,
+        "year1EBITDA": 7050000,
+        "year5Revenue": 46000000,
+        "year5EBITDA": 13800000
+      }
+    }
+  ],
+  "comparisonMetrics": [
+    "revenueGrowth",
+    "ebitdaMargin",
+    "wacc",
+    "enterpriseValue",
+    "equityValue"
+  ]
+}
