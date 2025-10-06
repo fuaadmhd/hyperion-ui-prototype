@@ -1,0 +1,41 @@
+[
+  {
+    "id": "model-1",
+    "name": "TechCorp DCF Valuation",
+    "description": "Discounted cash flow analysis for TechCorp acquisition",
+    "status": "In Progress",
+    "lastModified": "2024-10-05T14:30:00Z",
+    "owner": {
+      "name": "Maya Chen",
+      "avatar": "MC",
+      "role": "Analyst"
+    },
+    "tags": ["DCF", "Valuation", "Tech"]
+  },
+  {
+    "id": "model-2",
+    "name": "RetailCo LBO Model",
+    "description": "Leveraged buyout analysis for retail sector acquisition",
+    "status": "Completed",
+    "lastModified": "2024-10-03T09:15:00Z",
+    "owner": {
+      "name": "David Park",
+      "avatar": "DP",
+      "role": "Portfolio Manager"
+    },
+    "tags": ["LBO", "Retail", "Private Equity"]
+  },
+  {
+    "id": "model-3",
+    "name": "Manufacturing M&A Analysis",
+    "description": "Merger and acquisition financial model for manufacturing company",
+    "status": "Shared with team",
+    "lastModified": "2024-10-04T16:45:00Z",
+    "owner": {
+      "name": "Lena Rodriguez",
+      "avatar": "LR",
+      "role": "Quant Researcher"
+    },
+    "tags": ["M&A", "Manufacturing", "Synergies"]
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "templates": [
+    {
+      "id": "template-1",
+      "name": "DCF Valuation",
+      "description": "Complete discounted cash flow valuation model with WACC calculation",
+      "category": "Full Templates",
+      "icon": "Calculator",
+      "tags": ["Valuation", "DCF", "Enterprise Value"]
+    },
+    {
+      "id": "template-2",
+      "name": "LBO Model",
+      "description": "Leveraged buyout model with debt structure and returns analysis",
+      "category": "Full Templates",
+      "icon": "TrendingUp",
+      "tags": ["LBO", "Private Equity", "Returns"]
+    },
+    {
+      "id": "template-3",
+      "name": "3-Statement Model",
+      "description": "Integrated financial statements (P&L, Balance Sheet, Cash Flow)",
+      "category": "Full Templates",
+      "icon": "FileText",
+      "tags": ["Financial Statements", "Forecasting"]
+    },
+    {
+      "id": "template-4",
+      "name": "M&A Model",
+      "description": "Merger and acquisition analysis with accretion/dilution",
+      "category": "Full Templates",
+      "icon": "GitMerge",
+      "tags": ["M&A", "Synergies", "Deal Analysis"]
+    }
+  ],
+  "components": [
+    {
+      "id": "comp-1",
+      "name": "Depreciation Schedule",
+      "description": "Asset depreciation calculator with multiple methods",
+      "category": "Components",
+      "icon": "Calendar",
+      "tags": ["Fixed Assets", "Depreciation"]
+    },
+    {
+      "id": "comp-2",
+      "name": "Debt Waterfall",
+      "description": "Debt repayment schedule with multiple tranches",
+      "category": "Components",
+      "icon": "Layers",
+      "tags": ["Debt", "Financing"]
+    },
+    {
+      "id": "comp-3",
+      "name": "Volatility Forecaster",
+      "description": "Statistical volatility and risk metrics calculator",
+      "category": "Components",
+      "icon": "Activity",
+      "tags": ["Risk", "Volatility", "Statistics"]
+    },
+    {
+      "id": "comp-4",
+      "name": "Working Capital Calculator",
+      "description": "Working capital changes and cash conversion cycle",
+      "category": "Components",
+      "icon": "Repeat",
+      "tags": ["Working Capital", "Cash Flow"]
+    },
+    {
+      "id": "comp-5",
+      "name": "Revenue Growth Model",
+      "description": "Multi-driver revenue forecasting with seasonality",
+      "category": "Components",
+      "icon": "LineChart",
+      "tags": ["Revenue", "Growth", "Forecasting"]
+    }
+  ]
+}
