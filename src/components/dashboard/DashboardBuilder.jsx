@@ -1,11 +1,10 @@
 import { useState, useMemo } from 'react';
-import { Share, Download, Edit, Eye, FileText, Presentation } from 'lucide-react';
+import { Share, Edit, Eye, FileText, Presentation } from 'lucide-react';
 import Button from '../common/Button';
 import Modal from '../common/Modal';
 import KPICard from './KPICard';
 import { RevenueChart, SegmentChart, SensitivityTable, EBITDAChart, FCFChart } from './ChartComponents';
 import mockScenarios from '../../data/mockScenarios.json';
-import mockDetailedMetrics from '../../data/mockDetailedMetrics.json';
 
 export default function DashboardBuilder() {
   const [isEditMode, setIsEditMode] = useState(false);
@@ -27,7 +26,6 @@ export default function DashboardBuilder() {
     
     // Apply growth rate adjustments
     const growthFactor = revenueGrowth / 15; // 15% is base
-    const waccFactor = (9.2 - wacc) / 9.2; // Lower WACC increases valuation
     
     const adjustedRevenue = baseRevenue * (1 + (growthFactor - 1) * 0.3);
     const adjustedEBITDA = baseEBITDA * (1 + (growthFactor - 1) * 0.35);
@@ -41,7 +39,7 @@ export default function DashboardBuilder() {
       ebitdaChange: ((adjustedEBITDA / baseEBITDA - 1) * 100).toFixed(1),
       fcfChange: ((adjustedFCF / baseFCF - 1) * 100).toFixed(1)
     };
-  }, [wacc, revenueGrowth]);
+  }, [revenueGrowth]);
   
   const handleWaccChange = (e) => {
     setWacc(parseFloat(e.target.value));
